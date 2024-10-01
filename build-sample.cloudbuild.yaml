@@ -4,3 +4,6 @@ steps:
     dir: $_DIR
     script: |
       gcloud builds submit 
+serviceAccount: "gcp-lab-436609@appspot.gserviceaccount.com"
+options:
+  logging: CLOUD_LOGGING_ONLY
